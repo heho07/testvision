@@ -40,6 +40,7 @@ class App extends Component {
       <div className="App">
         <Camera
           onTakePhoto = { (dataUri) => { this.onTakePhoto(dataUri); } }
+          idealFacingMode = {FACING_MODES.ENVIRONMENT}
         />
       </div>
     );
