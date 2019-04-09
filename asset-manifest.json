@@ -1,14 +1,16 @@
 {
   "main.css": "/testvision/static/css/main.75741766.chunk.css",
-  "main.js": "/testvision/static/js/main.11df3bef.chunk.js",
-  "main.js.map": "/testvision/static/js/main.11df3bef.chunk.js.map",
+  "main.js": "/testvision/static/js/main.e028738d.chunk.js",
+  "main.js.map": "/testvision/static/js/main.e028738d.chunk.js.map",
   "runtime~main.js": "/testvision/static/js/runtime~main.b5a8dad5.js",
   "runtime~main.js.map": "/testvision/static/js/runtime~main.b5a8dad5.js.map",
-  "static/js/2.6efc73d3.chunk.js": "/testvision/static/js/2.6efc73d3.chunk.js",
-  "static/js/2.6efc73d3.chunk.js.map": "/testvision/static/js/2.6efc73d3.chunk.js.map",
+  "static/css/2.d7bc08a4.chunk.css": "/testvision/static/css/2.d7bc08a4.chunk.css",
+  "static/js/2.49ecd950.chunk.js": "/testvision/static/js/2.49ecd950.chunk.js",
+  "static/js/2.49ecd950.chunk.js.map": "/testvision/static/js/2.49ecd950.chunk.js.map",
   "index.html": "/testvision/index.html",
-  "precache-manifest.c8fde6d73e3264faf6f8601983466305.js": "/testvision/precache-manifest.c8fde6d73e3264faf6f8601983466305.js",
+  "precache-manifest.fb5b24a1fec671df9d3f0860a79b62ce.js": "/testvision/precache-manifest.fb5b24a1fec671df9d3f0860a79b62ce.js",
   "service-worker.js": "/testvision/service-worker.js",
+  "static/css/2.d7bc08a4.chunk.css.map": "/testvision/static/css/2.d7bc08a4.chunk.css.map",
   "static/css/main.75741766.chunk.css.map": "/testvision/static/css/main.75741766.chunk.css.map",
   "static/media/logo.svg": "/testvision/static/media/logo.5d5d9eef.svg"
 }
