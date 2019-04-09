@@ -30,19 +30,39 @@ import 'react-html5-camera-photo/build/css/index.css';
 // }
 
 class App extends Component {
+
+  constructor(props){
+    super(props);
+    this.state = {
+      front:true,
+      mirror:false,
+    }
+  }
+
   onTakePhoto (dataUri) {
     // Do stuff with the dataUri photo...
     console.log('takePhoto');
      console.log(FACING_MODES);
   }
+
+  handleClick(){
+    this.setState({
+      front:!this.state.front,
+      mirror: !this.state.mirror,
+    });
+  }
  
   render () {
+    let env = this.state.front ? FACING_MODES.ENVIRONMENT : FACING_MODES.USER;
+
     return (
       <div className="App">
         <Camera
           onTakePhoto = { (dataUri) => { this.onTakePhoto(dataUri); } }
-           idealFacingMode = {FACING_MODES.ENVIRONMENT}
+           idealFacingMode = {env}
+           isImageMirror = {this.state.mirror}
         />
+        <button onClick = {() => this.handleClick()}>Change camera front/end</button>
       </div>
     );
   }
