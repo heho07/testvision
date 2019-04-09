@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-import Camera from 'react-html5-camera-photo';
+import Camera  , { FACING_MODES, IMAGE_TYPES }  from 'react-html5-camera-photo';
 import 'react-html5-camera-photo/build/css/index.css';
 
 
@@ -33,6 +33,7 @@ class App extends Component {
   onTakePhoto (dataUri) {
     // Do stuff with the dataUri photo...
     console.log('takePhoto');
+     console.log(FACING_MODES);
   }
  
   render () {
@@ -40,7 +41,7 @@ class App extends Component {
       <div className="App">
         <Camera
           onTakePhoto = { (dataUri) => { this.onTakePhoto(dataUri); } }
-          idealFacingMode = {FACING_MODES.ENVIRONMENT}
+           idealFacingMode = {FACING_MODES.ENVIRONMENT}
         />
       </div>
     );
