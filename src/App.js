@@ -48,7 +48,8 @@ class App extends Component {
   handleClick(){
     this.setState({
       front:!this.state.front,
-      mirror: !this.state.mirror,
+      //mirror: !this.state.mirror,
+      mirror:false,
     });
   }
  
